@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		076FFF6A17AA65F8CAAC9E34 /* Achievements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1EDF5A1CB3091F9731C840 /* Achievements.swift */; };
+		14040263BE616FF5278BE56A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1497E1EE65B63FD6FB38B14 /* Assets.xcassets */; };
+		1EDECD49107BECB438C13E1F /* hint.wav in Resources */ = {isa = PBXBuildFile; fileRef = BDDE5D85C01CDC4778FC9B9E /* hint.wav */; };
+		1F0524AE15F30B6F0B7ECFE0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F314298BD91F147848873E2 /* GameScene.swift */; };
+		22EDFF55843804E7C36BBFB7 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A707C39E4838E0D239F2DB /* MenuScene.swift */; };
+		3AE711861F2BD2DDFFBCCD2B /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF323ABB31C25C6EAC7E995F /* Tutorial.swift */; };
+		50849AF5CE61A3BAE14F4935 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 7E643147F464617187A965A8 /* PrivacyInfo.xcprivacy */; };
+		56FECAC055C5C9CEFBB0FA99 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B372AB4108A2C37022066B /* SoundManager.swift */; };
+		583C7A82ACFA3579D74D53AF /* music.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAD5A56408EB35C7B9689547 /* music.wav */; };
+		7CFB151DE55D331BE0E23163 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = A66AA668F62B9FCDA18FE680 /* GoogleMobileAds */; };
+		8B7E37AE05FEE5BE9E467EDC /* Monetization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F008D6E6D757F101D38707 /* Monetization.swift */; };
+		8D22675732DBD546EF3CF0DC /* tap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 540347CE4C2BFDAF1EF25E21 /* tap.wav */; };
+		966D300A4E70EA034B17FDB6 /* coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9F687434536FAF0B63C95DD5 /* coin.wav */; };
+		98457336A04E5E776D283029 /* LevelGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906F692C6391D9D73911BFFF /* LevelGenerator.swift */; };
+		9B44C835B3B27157326C63A9 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = F9F23C14B93780FC3A6AFB7C /* win.wav */; };
+		A8CE228D0A715A02B74C5970 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 783D370545322236C2E7013B /* RevenueCat */; };
+		BABA4C625F3BAF1C139BFD7C /* GlasyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B46FA6BAA97E62FA526C52F /* GlasyApp.swift */; };
+		D3FDEF4CA5BB22145B1430AC /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A744BBE7E729DF09C18F369 /* Utilities.swift */; };
+		DB5A2A791CA621BAC9E9BAE0 /* SettingsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2468A84EF66DF1CAB17DF07 /* SettingsScene.swift */; };
+		E89036435009371583696186 /* LevelSelectScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75418A59B022F3C8B0BDCF03 /* LevelSelectScene.swift */; };
+		FB62F59B32C1A69AE3F8F706 /* LightGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF991BF634BBAA7EE5A7769B /* LightGame.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38AD2A9798CE00E683BA42F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3A744BBE7E729DF09C18F369 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		540347CE4C2BFDAF1EF25E21 /* tap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tap.wav; sourceTree = "<group>"; };
+		55B372AB4108A2C37022066B /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		5E1EDF5A1CB3091F9731C840 /* Achievements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievements.swift; sourceTree = "<group>"; };
+		69A707C39E4838E0D239F2DB /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		6B46FA6BAA97E62FA526C52F /* GlasyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlasyApp.swift; sourceTree = "<group>"; };
+		6F314298BD91F147848873E2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		75418A59B022F3C8B0BDCF03 /* LevelSelectScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelSelectScene.swift; sourceTree = "<group>"; };
+		7E643147F464617187A965A8 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		8BE817408219527FC9B31539 /* Glasy.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Glasy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		906F692C6391D9D73911BFFF /* LevelGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelGenerator.swift; sourceTree = "<group>"; };
+		9F687434536FAF0B63C95DD5 /* coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = coin.wav; sourceTree = "<group>"; };
+		B2468A84EF66DF1CAB17DF07 /* SettingsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScene.swift; sourceTree = "<group>"; };
+		BDDE5D85C01CDC4778FC9B9E /* hint.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hint.wav; sourceTree = "<group>"; };
+		BF323ABB31C25C6EAC7E995F /* Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
+		C1497E1EE65B63FD6FB38B14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF991BF634BBAA7EE5A7769B /* LightGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightGame.swift; sourceTree = "<group>"; };
+		F3F008D6E6D757F101D38707 /* Monetization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monetization.swift; sourceTree = "<group>"; };
+		F9F23C14B93780FC3A6AFB7C /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		FAD5A56408EB35C7B9689547 /* music.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = music.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C57B148C258737E27DB9D87A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFB151DE55D331BE0E23163 /* GoogleMobileAds in Frameworks */,
+				A8CE228D0A715A02B74C5970 /* RevenueCat in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B1B2966C2A182689BA1770 = {
+			isa = PBXGroup;
+			children = (
+				C1DF25E5BA097AB521B15F13 /* Glasy */,
+				E42B7CF3364A063EDEF62814 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1DF25E5BA097AB521B15F13 /* Glasy */ = {
+			isa = PBXGroup;
+			children = (
+				5E1EDF5A1CB3091F9731C840 /* Achievements.swift */,
+				C1497E1EE65B63FD6FB38B14 /* Assets.xcassets */,
+				6F314298BD91F147848873E2 /* GameScene.swift */,
+				6B46FA6BAA97E62FA526C52F /* GlasyApp.swift */,
+				38AD2A9798CE00E683BA42F5 /* Info.plist */,
+				906F692C6391D9D73911BFFF /* LevelGenerator.swift */,
+				75418A59B022F3C8B0BDCF03 /* LevelSelectScene.swift */,
+				DF991BF634BBAA7EE5A7769B /* LightGame.swift */,
+				69A707C39E4838E0D239F2DB /* MenuScene.swift */,
+				F3F008D6E6D757F101D38707 /* Monetization.swift */,
+				7E643147F464617187A965A8 /* PrivacyInfo.xcprivacy */,
+				B2468A84EF66DF1CAB17DF07 /* SettingsScene.swift */,
+				55B372AB4108A2C37022066B /* SoundManager.swift */,
+				BF323ABB31C25C6EAC7E995F /* Tutorial.swift */,
+				3A744BBE7E729DF09C18F369 /* Utilities.swift */,
+				F901C01AA4C580A647A22957 /* Sounds */,
+			);
+			path = Glasy;
+			sourceTree = "<group>";
+		};
+		E42B7CF3364A063EDEF62814 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BE817408219527FC9B31539 /* Glasy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F901C01AA4C580A647A22957 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				9F687434536FAF0B63C95DD5 /* coin.wav */,
+				BDDE5D85C01CDC4778FC9B9E /* hint.wav */,
+				FAD5A56408EB35C7B9689547 /* music.wav */,
+				540347CE4C2BFDAF1EF25E21 /* tap.wav */,
+				F9F23C14B93780FC3A6AFB7C /* win.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39A27B809A3B94141CEACDAA /* Glasy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6D104982BAD84178C543F1B /* Build configuration list for PBXNativeTarget "Glasy" */;
+			buildPhases = (
+				4090C7EDC51FC2DD90A7FBBD /* Sources */,
+				EA60EBF5F5CB42E04A833EC0 /* Resources */,
+				C57B148C258737E27DB9D87A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Glasy;
+			packageProductDependencies = (
+				A66AA668F62B9FCDA18FE680 /* GoogleMobileAds */,
+				783D370545322236C2E7013B /* RevenueCat */,
+			);
+			productName = Glasy;
+			productReference = 8BE817408219527FC9B31539 /* Glasy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD048F0C2768AAB96F843AFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					39A27B809A3B94141CEACDAA = {
+						DevelopmentTeam = N365493MUS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3755AD6C3C674A5D369716BD /* Build configuration list for PBXProject "Glasy" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 01B1B2966C2A182689BA1770;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E088D48E70D0D629E7EB9283 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+				6077E954B5D8B04FA9D77FCB /* XCRemoteSwiftPackageReference "purchases-ios" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E42B7CF3364A063EDEF62814 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39A27B809A3B94141CEACDAA /* Glasy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA60EBF5F5CB42E04A833EC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14040263BE616FF5278BE56A /* Assets.xcassets in Resources */,
+				50849AF5CE61A3BAE14F4935 /* PrivacyInfo.xcprivacy in Resources */,
+				966D300A4E70EA034B17FDB6 /* coin.wav in Resources */,
+				1EDECD49107BECB438C13E1F /* hint.wav in Resources */,
+				583C7A82ACFA3579D74D53AF /* music.wav in Resources */,
+				8D22675732DBD546EF3CF0DC /* tap.wav in Resources */,
+				9B44C835B3B27157326C63A9 /* win.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4090C7EDC51FC2DD90A7FBBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076FFF6A17AA65F8CAAC9E34 /* Achievements.swift in Sources */,
+				1F0524AE15F30B6F0B7ECFE0 /* GameScene.swift in Sources */,
+				BABA4C625F3BAF1C139BFD7C /* GlasyApp.swift in Sources */,
+				98457336A04E5E776D283029 /* LevelGenerator.swift in Sources */,
+				E89036435009371583696186 /* LevelSelectScene.swift in Sources */,
+				FB62F59B32C1A69AE3F8F706 /* LightGame.swift in Sources */,
+				22EDFF55843804E7C36BBFB7 /* MenuScene.swift in Sources */,
+				8B7E37AE05FEE5BE9E467EDC /* Monetization.swift in Sources */,
+				DB5A2A791CA621BAC9E9BAE0 /* SettingsScene.swift in Sources */,
+				56FECAC055C5C9CEFBB0FA99 /* SoundManager.swift in Sources */,
+				3AE711861F2BD2DDFFBCCD2B /* Tutorial.swift in Sources */,
+				D3FDEF4CA5BB22145B1430AC /* Utilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		12310B6709FBC03311E01F1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 6;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5140F606E19E73625CC0C538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N365493MUS;
+				INFOPLIST_FILE = Glasy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrealkan.glasy;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		628A01487573E2142DE11092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 6;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF9FD56E9E4F6227F9AEB1AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N365493MUS;
+				INFOPLIST_FILE = Glasy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrealkan.glasy;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3755AD6C3C674A5D369716BD /* Build configuration list for PBXProject "Glasy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				628A01487573E2142DE11092 /* Debug */,
+				12310B6709FBC03311E01F1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B6D104982BAD84178C543F1B /* Build configuration list for PBXNativeTarget "Glasy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5140F606E19E73625CC0C538 /* Debug */,
+				CF9FD56E9E4F6227F9AEB1AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6077E954B5D8B04FA9D77FCB /* XCRemoteSwiftPackageReference "purchases-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		E088D48E70D0D629E7EB9283 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		783D370545322236C2E7013B /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6077E954B5D8B04FA9D77FCB /* XCRemoteSwiftPackageReference "purchases-ios" */;
+			productName = RevenueCat;
+		};
+		A66AA668F62B9FCDA18FE680 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E088D48E70D0D629E7EB9283 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DD048F0C2768AAB96F843AFD /* Project object */;
+}

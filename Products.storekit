@@ -1,0 +1,56 @@
+{
+  "identifier" : "GLASY-SK-CONFIG",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "1001",
+      "localizations" : [
+        { "description" : "Banner reklamlarını kalıcı olarak kaldırır. Ödül için isteğe bağlı reklamlar kullanılabilir.", "displayName" : "Banner Reklamsız", "locale" : "tr" }
+      ],
+      "productID" : "com.emrealkan.glasy.removeads",
+      "referenceName" : "Remove Ads",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1002",
+      "localizations" : [
+        { "description" : "500 coin", "displayName" : "500 Coin", "locale" : "tr" }
+      ],
+      "productID" : "com.emrealkan.glasy.coins.500",
+      "referenceName" : "500 Coins",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "1003",
+      "localizations" : [
+        { "description" : "1500 coin", "displayName" : "1500 Coin", "locale" : "tr" }
+      ],
+      "productID" : "com.emrealkan.glasy.coins.1500",
+      "referenceName" : "1500 Coins",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "5.99",
+      "familyShareable" : false,
+      "internalID" : "1004",
+      "localizations" : [
+        { "description" : "4000 coin", "displayName" : "4000 Coin", "locale" : "tr" }
+      ],
+      "productID" : "com.emrealkan.glasy.coins.4000",
+      "referenceName" : "4000 Coins",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_storeKitErrors" : []
+  },
+  "subscriptionGroups" : [],
+  "version" : { "major" : 3, "minor" : 0 }
+}
